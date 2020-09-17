@@ -1,0 +1,45 @@
+  1   2   3   4   5   6   7
+   #############################
+ 1 #   |   #   |   #   |   |   #
+   #####---#####---#---#####---#   
+ 2 #   #   |   #   #   #   #   #
+   #---#####---#####---#####---#
+ 3 #   |   |   #   #   #   #   #   
+   #---#########---#####---#---#
+ 4 #   #   |   |   |   |   #   #   
+   #############################
+#  = Wall
+|  = No wall
+-  = No wall
+This is a sample map of a particular floor in one of the buildings at SLIIT. It shows the different locations which are seperated by walls (lecture halls, labs, meeting rooms). Write a program that calculates:
+
+how many locations the floor has
+how big the largest location is
+The floor is divided into m * n (m<=50, n<=50) square modules. Each such module can have between zero and four walls.
+
+Input Format
+
+The input starts with the number of modules in the north-south direction and the number of modules in the east-west direction. In the following lines each module is described by a number (0<=p<=15). This number is the sum of: 1 (= wall to the west), 2 (= wall to the north), 4 (= wall to the east), 8 (= wall to the south). Inner walls are defined twice; a wall to the south in module 1,1 is also indicated as a wall to the north in module 2,1. A floor always has at least two rooms.
+
+Constraints
+
+m<=50, n<=50
+
+Output Format
+
+the following are written on two lines.
+
+First the number of locations
+then the area of the largest location (counted in modules)
+Sample Input 0
+
+4
+7
+11 6 11 6 3 10 6
+7 9 6 13 5 15 5
+1 10 12 7 13 7 5
+13 11 10 8 10 12 13
+Sample Output 0
+
+5
+9
