@@ -1,0 +1,41 @@
+A word consists of at least one and at most 75 lowercase letters (from 'a' to 'z'). A list of one or more words is called a chain when each word in that list, except the first, is obtained from the preceding word by appending one or more letters on the right. For instance, the list
+
+i
+in
+int
+integer
+is a chain of four words,
+
+but the list
+
+input
+integer
+is not a chain.
+
+Note that every list of one word is a chain.
+
+Input Format
+
+Your program is given a list of words. This list contains at least one word and all of the words together have no more than 2,000,000 letters. The input is terminated with a line containing a single period ('.'). All other lines contain one word each. The list is sorted lexicographically using the standard alphabetical ordering (as in an English dictionary). There are no duplicate words in the list.
+
+Constraints
+
+See the problem description and input/output formats
+
+Output Format
+
+The length of a chain is the number of words it contains. Your program should write to file OUTPUT.TXT a longest chain of words taken from the input. Each word should be on a separate line. If there is more than one chain of maximum length, your program should output only one of these chains. It does not matter which one.
+
+Sample Input 0
+
+i
+if
+in
+input
+int
+integer
+output
+.
+Sample Output 0
+
+4
