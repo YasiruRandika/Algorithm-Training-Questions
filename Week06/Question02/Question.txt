@@ -1,0 +1,49 @@
+An Ngram is defined as a sequence of N consecutive words in a given sentence.
+
+For Example:
+
+for this sentence: hello world good morning
+We can count 2-grams (or bigrams), as follows:
+
+hello world
+world good
+good morning
+We can also count 3-grams (or trigrams), as follows:
+
+hello world good
+world good morning
+Your task, is given a set of sentences and the value of N, to count the frequencies of all Ngrams in the given dataset.
+
+Input Format
+
+The first line will contain two integers integer L and N
+L is the number of lines in the dataset
+N is the size of the Ngram
+The next L lines contain a sentence written in lowercase english less than 1000 characters in length, containing W words
+Constraints
+
+1 <= L <= 1,000,000
+1 <= N <= 12
+N <= W
+Output Format
+
+Each line in the output should contain the n-gram and the frequency (F) in the following format (wk is the kth word in the n-gram)
+w1,w2,...,wN F
+Ngrams should be listed in reverse order of frequency (highest frequency at the top). In case there are two n-grams with the same frequency, it should output in alphabetical order.
+Sample Input 0
+
+2 3
+once you go back you dont go back
+once you go back you go back
+Sample Output 0
+
+you,go,back 3
+go,back,you 2
+once,you,go 2
+back,you,dont 1
+back,you,go 1
+dont,go,back 1
+you,dont,go 1
+Explanation 0
+
+self explanatory
