@@ -1,0 +1,15 @@
+You are given a rectangular grid which is made up of NxM squares. You are supposed to cut them into perfect squares so that the entire rectangle is used up. You can only cut along the specified gridlines. You are supposed to make the cuts such that the number of resulting squares are minimised. Consider this example:
+
+Here, a grid of 6x5 has been cut into three 2x2 squares and two 3x3 squares, which gives us 5 in total. If you closely examine, there is no other configuration which could cut this grid into a smaller number of squares.
+
+Input Format
+
+Two integers N and M seperated by a space
+
+Constraints
+
+1 <= N <= 1,000,000
+1 <= M <= 1,000,000
+Output Format
+
+One single integer representing the mininum number of squares the grid can be cut into
