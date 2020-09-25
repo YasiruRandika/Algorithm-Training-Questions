@@ -1,0 +1,30 @@
+Alice is lost in wonderland. Help Alice find her way out of it. Your task is to print all the possible paths that Alice could take via the different locations in wonderland to finally get home. You are also supposed to find how much time it takes when taking each path. If there are multiple paths, they should be displayed in lexicographical order.
+
+Input Format
+
+The first line contains N (the number of locations)
+The second line contains E (the number of roads)
+The next E lines contain the starting location (SL), and ending location (EL), and the time taken to travel along that road (T)
+The next line contains Alice's current location (AL)
+The next line contains the destination i.e. where Alice needs to go (AD)
+Constraints
+
+2 <= N <= 1,000,000
+1 <= E <= 1,000,000
+1 <= ST, ET, AL, AD <= N
+1 <= T <= 1000
+Output Format
+
+First line should be K, the number of different paths Alice could take
+The next K lines should contain the paths, one path per line, seperated by spaces, and ending with the time taken in square brackets [] - the paths should be sorted in lexicographical order
+Sample Input 0
+
+2
+1
+1 2 1
+1
+2
+Sample Output 0
+
+1
+1 2 [1]
