@@ -1,0 +1,53 @@
+You have to find the answer which explains everything in the universe. Unfortunately nobody remembers the answer, and nobody remembers the question! All you have is some testcases.
+
+Input Format
+
+One integer (N)
+
+Constraints
+
+1 <= N <= 100
+
+Output Format
+
+One word
+
+Sample Input 0
+
+3
+Sample Output 0
+
+stay
+Explanation 0
+
+no one knows the answer
+
+Sample Input 1
+
+42
+Sample Output 1
+
+go
+Explanation 1
+
+no one knows the question
+
+Sample Input 2
+
+81
+Sample Output 2
+
+stay
+Explanation 2
+
+the truth is out there
+
+Sample Input 3
+
+42
+Sample Output 3
+
+go
+Explanation 3
+
+or is it really?
