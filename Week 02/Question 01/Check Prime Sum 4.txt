@@ -1,0 +1,24 @@
+Given a number, output "Yes" if the number is prime, "No" if not. A prime number is a number that is only divisible by 1 and itself.
+
+By definition, 1 is not prime
+The number 5 is prime, because it is not divisible by anything other than 1 and itself (5)
+The number 4 is not prime, because it is divisible by 2
+The number 6 is not prime, because it is divisible by 2 and 3
+Input Format
+
+A single line containing one positive integer (N)
+
+Constraints
+
+1 <= N <= 1,000,000
+
+Output Format
+
+A single line containing the word "Yes" or "No"
+
+Sample Input 0
+
+5
+Sample Output 0
+
+Yes
