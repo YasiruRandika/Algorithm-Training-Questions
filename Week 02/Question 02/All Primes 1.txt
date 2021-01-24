@@ -1,0 +1,25 @@
+Given a number (N), print all the prime numbers between 1 and N. A prime is a number which is only divisible by 1 and itself. By definition 1 is not a prime number.
+
+Example: if N is 10, the prime numbers between 1 and 10 are 2, 3, 5, and 7
+
+Input Format
+
+A single line containing a positive integer (N)
+
+Constraints
+
+1 <= N <= 1,000,000
+
+Output Format
+
+A set of integers (one per line) representing the primes between 1 and N
+
+Sample Input 0
+
+10
+Sample Output 0
+
+2
+3
+5
+7
