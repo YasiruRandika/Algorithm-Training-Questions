@@ -1,0 +1,42 @@
+Consider a triangle of the following form.
+
+image
+
+You start at the top most node and travel downwards along the arrows drawn. Your task is to write a program that would find the optimal path from top to bottom such that the sum of the numbers on the path travelled is maximised.
+
+For example: consider the following path:
+
+image
+
+In this case, the sum along the path travelled is 1 + 4 + 5 + 1 = 11
+
+Now consider this path:
+
+image
+
+In this one, the sum along the path travelled is 1 + 3 + 8 + 3 = 15
+
+Here, it is apparent that 15 is the maximum possible sum in the given triangle.
+
+Input Format
+
+The first line will contain the height of the triangle H The next H lines will contain the elements of the triangle (E), in the form of L (1 <= L <= H) integers on line L, seperated by a space.
+
+Constraints
+
+1 <= H <= 1,000 1 <= E <= 1,000,000
+
+Output Format
+
+One line containing a single integer representing the maximum sum attainable by traversing down the triangle
+
+Sample Input 0
+
+4
+1
+3 4
+8 5 6
+2 3 1 2
+Sample Output 0
+
+15
