@@ -1,0 +1,23 @@
+Identify the most popular word in a given sentence. The most popular word is the one with the highest word frequency. If there is no single most popular word, then output -1
+
+Input Format
+
+The first line contains an integer N The next N lines contain sentences written in English
+
+Constraints
+
+1 <= N <= 1,000,000
+
+Output Format
+
+The output should contain N lines, each containing either the most popular word in the given sentence, or -1
+
+Sample Input 0
+
+2
+I do not know if I am worthy
+I am sorry
+Sample Output 0
+
+I
+-1
