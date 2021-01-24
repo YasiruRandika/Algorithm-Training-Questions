@@ -1,0 +1,26 @@
+Old Sri Lankan NIC has a unique 9-digit number followed by a letter.
+Digits 1 and 2: The year of birth
+Digits 3-5: The number of the day in the year on which the person's birth date falls.
+A male would be assigned the number 1-366 and a female the number 501-866. This is a way of confirming if the person's listed birth date is accurate. A male's birth date would be represented by the exact number of days, a female's birth date would be represented by the exact number of days + 500.
+Input Format
+
+9 digit string (OLD Sri Lankan NIC format without character “V”).
+
+Constraints
+
+The length of the string will be exactly 9 digits containing [0-9] only.
+
+Output Format
+
+First line should be date of birth in YYYY-MM-DD format. Second line should be gender as M or F.
+
+Sample Input 0
+
+985422280
+Sample Output 0
+
+1998-02-11
+F
+Explanation 0
+
+98 - 1998 542 -> 42nd year of the year, which is February 11 542 - F because greater than 500
