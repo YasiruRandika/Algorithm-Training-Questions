@@ -1,0 +1,24 @@
+Fibonacci Numbers are defined as a sequence of numbers where the Nth Fibonacci number is the summation of (N-1)th and (N-2)th Fibonacci Numbers. By definition, the 0th and 1st Fibonnacci numbers are 0 and 1 respectively.
+
+You can read more here: https://en.wikipedia.org/wiki/Fibonacci_number
+
+Your task is, given a number (N), output the Nth Fibonacci number.
+
+Input Format
+
+A single integer N
+
+Constraints
+
+0 <= N <= 40
+
+Output Format
+
+A single integer, the Nth Fibonacci Number
+
+Sample Input 0
+
+5
+Sample Output 0
+
+5
