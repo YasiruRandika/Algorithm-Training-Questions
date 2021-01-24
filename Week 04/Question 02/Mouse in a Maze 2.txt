@@ -1,0 +1,71 @@
+Monty the mouse wants his cheese. Monty is at the beginning of a maze at (0,0) and his cheese is at the end of it, at (N-1, N-1). Monty is willing to run as fast as possible and get to his cheese, but he can only travel via safe ground (marked with 0). Please make sure poor Monty doesn't fall into a pit (marked with 1), and make sure he gets to the cheese as soon as possible as he's hungry! Note that Monty can only run horizontally or vertically, and not across diagonals or any other direction.
+
+Consider this example:
+
+M 0 0 0 0
+
+0 0 0 0 0
+
+0 0 0 0 0
+
+0 0 0 0 0
+
+0 0 0 0 C
+
+In this case, the minimum amount of moves taken by Monty to reach the cheese is 8.
+
+Consider this second example:
+
+M 1 1 1 0
+
+0 1 0 0 0
+
+0 1 0 1 0
+
+0 1 0 1 0
+
+0 0 0 1 C
+
+In this case, Monty needs at least 14 moves to get to his cheese.
+
+Consider this third example:
+
+M 0 1 0
+
+0 0 1 0
+
+0 0 1 0
+
+1 1 1 C
+
+In this case there is no path to reach the cheese, therefore poor Monty has to output -1.
+
+Input Format
+
+The first line contains N, the size of the maze The next N lines each contain N numbers, either 0 (safe ground), 1 (pit), M (Monty), or C (Cheese)
+
+Constraints
+
+2 <= N <= 100
+
+Output Format
+
+One single integer representing the minimum amount of moves to get to the cheese. Print -1 if there are no possible paths.
+
+Sample Input 0
+
+4
+M 0 0 1
+0 0 0 0
+0 0 1 0
+0 0 1 C
+Sample Output 0
+
+6
+Submissions: 27
+Max Score: 120
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
